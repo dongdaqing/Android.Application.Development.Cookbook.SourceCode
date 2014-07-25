@@ -1,0 +1,37 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="TurnOn"
+        android:text="Turn On Flash" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="TurnOff"
+        android:text="Turn Off Flash" />
+
+    <FrameLayout
+        android:id="@+id/mainlayout"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" >
+
+        <SurfaceView
+            android:id="@+id/surface1"
+            android:layout_width="200dp"
+            android:layout_height="200dp" />
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:src="@drawable/android" />
+    </FrameLayout>
+
+</LinearLayout>

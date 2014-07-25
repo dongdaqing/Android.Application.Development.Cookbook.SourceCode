@@ -1,0 +1,36 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:id="@+id/lblComments"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Comments"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true" />
+    <EditText
+        android:id="@+id/txtComments"
+        android:layout_width="fill_parent"
+        android:layout_height="170dp"
+        android:textSize="18sp"
+        android:layout_alignLeft="@+id/lblComments"
+        android:layout_below="@+id/lblComments"
+        android:layout_centerHorizontal="true" />
+    <Button
+        android:id="@+id/btnSave"
+        android:layout_width="125dp"
+        android:layout_height="wrap_content"
+        android:text="Save"
+        android:layout_below="@+id/txtComments"
+        android:layout_alignRight="@+id/txtComments" />
+    <Button
+        android:id="@+id/btnCancel"
+        android:layout_width="124dp"
+        android:layout_height="wrap_content"
+        android:text="Cancel"
+        android:layout_below="@+id/txtComments"
+        android:layout_alignLeft="@+id/txtComments" />
+
+</RelativeLayout>

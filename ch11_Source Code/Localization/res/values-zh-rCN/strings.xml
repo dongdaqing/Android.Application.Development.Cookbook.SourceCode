@@ -1,0 +1,9 @@
+<resources>
+
+    <string name="app_name">Localization</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="quotation">一个人的一小步，为人类的一大步</string>
+
+</resources>

@@ -1,0 +1,26 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="List 1" />
+
+    <ListView
+        android:id="@+id/ListView1"
+        android:layout_width="fill_parent"
+        android:layout_height="200dp" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="List 2" />
+
+    <ListView
+        android:id="@+id/ListView2"
+        android:layout_width="fill_parent"
+        android:layout_height="200dp" />
+
+</LinearLayout>

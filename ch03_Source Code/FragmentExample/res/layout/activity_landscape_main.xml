@@ -1,0 +1,19 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="horizontal" >
+
+    <fragment
+        android:id="@+id/masterFragment"
+        android:name="net.learn2develop.fragmentexample.MasterFragment"
+        android:layout_width="150dp"
+        android:layout_height="match_parent" />
+
+    <fragment
+        android:id="@+id/detailFragment"
+        android:name="net.learn2develop.fragmentexample.DetailFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</LinearLayout>
+

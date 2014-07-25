@@ -1,0 +1,58 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <Button 
+        android:id="@+id/imageTextButton6" 
+        android:layout_width="wrap_content" 
+        android:layout_height="wrap_content"        
+        android:text=""/>
+        
+    <Button 
+        android:id="@+id/imageTextButton5" 
+        android:layout_width="wrap_content" 
+        android:layout_height="wrap_content"
+        android:drawableTop="@drawable/ic_launcher"
+        android:drawableBottom="@drawable/ic_launcher"
+        android:drawableLeft="@drawable/ic_launcher"
+        android:drawableRight="@drawable/ic_launcher"        
+        android:text="Android"/>    
+    
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_launcher"
+        android:onClick="onToggle" />
+        
+    <Button 
+        android:id="@+id/imageTextButton1" 
+        android:layout_width="wrap_content" 
+        android:layout_height="wrap_content"
+        android:drawableTop="@drawable/ic_launcher"
+        android:text="Android"/>
+
+    <Button 
+        android:id="@+id/imageTextButton2" 
+        android:layout_width="wrap_content" 
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/ic_launcher"
+        android:text="Android"/>
+    
+    <Button 
+        android:id="@+id/imageTextButton3" 
+        android:layout_width="wrap_content" 
+        android:layout_height="wrap_content"
+        android:drawableRight="@drawable/ic_launcher"
+        android:text="Android"/>
+
+    <Button 
+        android:id="@+id/imageTextButton4" 
+        android:layout_width="wrap_content" 
+        android:layout_height="wrap_content"
+        android:drawableBottom="@drawable/ic_launcher"
+        android:text="Android"/>
+
+</LinearLayout>
+
